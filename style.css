@@ -7,11 +7,8 @@
 }
 
 body {
-  background: rgb(145, 186, 214);
-  background: -moz-linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
-  background: linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#91bad6", endColorstr="#bcd2e8", GradientType=1);
+  background: rgb(100, 151, 177);
+  background: linear-gradient(90deg, rgba(100, 151, 177, 1) 40%, rgba(179, 205, 224, 1) 100%);
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
@@ -23,7 +20,8 @@ body {
 .app {
   width: 300px;
   height: 450px;
-  background-color: #73A5C6;
+  background-color: #005b96;
+  background-size: cover;
   border-radius: 3px;
   box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   padding: 10px 20px 15px;
@@ -108,21 +106,21 @@ input {
 }
 
 input:focus {
-  border: 2px solid #1e3f66;
+  border: 2px solid #03396c;
 }
 
 .button {
   width: 250px;
   height: 2rem;
   background-color: #fff;
-  color: #2e5984;
+  color: #03396c;
   border-radius: 3px;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   font-family: inherit;
   font-size: 1rem;
   font-weight: bold;
-  border: 1px solid #2e5984;
+  border: 1px solid #03396c;
   outline: 0;
 }
 
@@ -130,9 +128,9 @@ input:focus {
   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
     inset 8px 8px 16px rgba(0, 0, 0, 0.1);
   color: #73A5C6;
-  border: 2px solid #1e3f66;
+  border: 2px solid #03396c;
 }
 
 .button:focus {
-  border: 2px solid #1e3f66;
+  border: 2px solid #03396c;
 }
