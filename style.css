@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(145, 186, 214);
+  background: -moz-linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
+  background: linear-gradient(90deg, rgba(145, 186, 214, 1) 50%, rgba(188, 210, 232, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#91bad6", endColorstr="#bcd2e8", GradientType=1);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: rgb(240, 240, 240);
+}
+
+.app {
+  width: 300px;
+  height: 450px;
+  background-color: #73A5C6;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  padding: 10px 20px 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.weather__status {
+  display: flex;
+  align-items: center;
+}
+
+.weather__status div {
+  font-size: 2rem;
+}
+
+.weather__temp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temp-current {
+  line-height: 5.5rem;
+  font-size: 5.5rem;
+}
+
+.temp-range {
+  font-size: 1.3rem;
+}
+
+.temp-high {
+  border-bottom: 1px solid rgba(256, 256, 256, .5);
+  padding-bottom: 3px;
+}
+
+.temp-low {
+  padding-top: 3px;
+}
+
+.forecast {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-around;
+}
+
+.forecast-el {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast-temp {
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+}
+
+input {
+  height: 2rem;
+  margin-bottom: .2rem;
+  min-width: 100%;
+  border-radius: 3px;
+  font-size: 1rem;
+  border: 1px solid #2e5984;
+  outline: 0;
+}
+
+input:focus {
+  border: 2px solid #1e3f66;
+}
+
+.button {
+  width: 250px;
+  height: 2rem;
+  background-color: #fff;
+  color: #2e5984;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #2e5984;
+  outline: 0;
+}
+
+.button:active {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+  color: #73A5C6;
+  border: 2px solid #1e3f66;
+}
+
+.button:focus {
+  border: 2px solid #1e3f66;
+}
